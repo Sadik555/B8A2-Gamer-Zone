@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body{
+    font-family: Work Sans;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+*{
+    box-sizing: border-box;
+}
+.nav-container{
+    max-height: 130px;
+    display: flex;
+    align-items: center;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+}
+.logo-container img{
+    width: 86px;
+    margin-right: 20px;
+    height: 40px;
+}
+.logo-container p{
+    font-size: 45px;
+    width: 147px;
+}
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3C354F;
+}
+.nav-items-container a{.nav-option{
+    width: 262px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+}}
+.fa-brands{
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+}
+.banner-container{
+    margin: 50px auto 0;
+    max-width: 1920px;
+    display: flex;
+}
+
+.banner-text{
+    width: 50%;
+    padding-top: 148px;
+    padding-bottom: 148px;
+}
+
+.banner-text h1{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.banner-text h2{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text p{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+}
+
+.btn-primary{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.btn{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
