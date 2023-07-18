@@ -25,6 +25,7 @@ body{
     width: 86px;
     margin-right: 20px;
     height: 40px;
+    margin-top: 50px;
 }
 .logo-container p{
     font-size: 45px;
@@ -40,17 +41,19 @@ body{
     font-size: 18px;
     color: #3C354F;
 }
-.nav-items-container a{.nav-option{
+.nav-btn{
     width: 262px;
-height: 56px;
+height: 50px;
 flex-shrink: 0;
 border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
-}}
+align-items: center;
+}
 .fa-brands{
     height: 24px;
     width: 24px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .banner-container{
     margin: 50px auto 0;
