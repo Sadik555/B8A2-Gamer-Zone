@@ -1,4 +1,4 @@
-@media screen and (max-width:425px) {
+@media screen and (max-width:640px) {
     .nav-container{
         flex-direction: column;
     }
@@ -23,5 +23,76 @@
     .banner-text p{
         font-size: 50px;
     }
+  
+    .online-games{
+        flex-direction: column;
+    }
+    .play-now{
+        flex-direction: column;
+    }
+    .game-related-container{
+        padding: 0px 20px;
+    }
+
+    .gemes-related-parent{
+        justify-content: space-between;
+        gap: 10px;
+        
+    }
+    .gemes-related-parent li{
+       width: 30%;
+       padding: 5px 5px;
+    }
+
+    .gemes-related-parent li img{
+        width: 30%;
+    }
+    .gemes-related-parent li span{
+        font-size: 13px;
+    }
+
+    .footer-menu ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .footer-menu ul > li{
+        flex-basis: 25%;
+       
+    }
+
+    .footer-bottom-menu ul{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
     
+    .footer-bottom-menu ul li {
+        flex-basis: calc((100% - 50px)/2);
+    }
+
+    .footer-icon{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    
+    .footer-icon svg{
+        flex-basis: 25%;
+    }
+
+    footer{
+        margin-top: 50px;
+    }
+
+    .games-top-content{
+        text-align: center;
+        padding: 0px 30px;
+    }
+    .games-top-content p{
+        line-height: 25px;
+        margin-top: 5px;
+    }
+   
+   
 }
+
