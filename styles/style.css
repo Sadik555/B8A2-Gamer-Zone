@@ -6,14 +6,11 @@ body{
     padding-left: 240px;
     padding-right: 240px;
 }
-*{
-    box-sizing: border-box;
-}
 .nav-container{
     max-height: 130px;
     display: flex;
     align-items: center;
-    max-width: 1920px;
+  max-width: 1920px;
     margin: 0 auto;
     background-color: #FFF;
 }
@@ -65,6 +62,7 @@ align-items: center;
     width: 50%;
     padding-top: 148px;
     padding-bottom: 148px;
+    background-image: url(../images/Group\ 14.png);
 }
 
 .banner-text h1{
@@ -161,7 +159,6 @@ line-height: 30px; /* 166.667% */
     width: 100%;
 }
 
-
 .play-now{
     border: 1px solid red;
     margin-top: 50px;
@@ -169,7 +166,7 @@ line-height: 30px; /* 166.667% */
     max-height: 700px;
 }
 .play-now li{
-    text-align: right;
+    text-align: center;
 font-family: Work Sans;
 font-size: 48px;
 font-weight: 700;
@@ -182,7 +179,7 @@ background-clip: text;
 .play-now p{
     width: 353px;
     color: #534C64;
-text-align: right;
+text-align: left;
 font-family: Work Sans;
 font-size: 18px;
 font-weight: 400;
@@ -191,24 +188,28 @@ line-height: 30px;
 .play-now-title{
     width: 50%;
 }
-.play-img{
+.parent{
     width: 50%;
     height: 100%;
+    position: relative;
 }
-.play-now-img img{
+.img-1 img{
     width: 100%;
-    height: 70%;
+    height: 50%;
+    position: relative;
+  border: 1px red solid;
 }
 
-.play-now-img1 img{
-    position: relative;
+.img-2 img{
+    position: absolute;
+  top: 270px;
+  left: -70px;
+  border: 1px red solid;
 }
 .games-container{
     border: 1px solid red;
     height: 400px;
     margin-top: 50px;
-    display: flex;
-   
 }
 .single-games{
     border: 1px solid green;
