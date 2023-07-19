@@ -160,7 +160,6 @@ line-height: 30px; /* 166.667% */
 }
 
 .play-now{
-    border: 1px solid red;
     margin-top: 50px;
     display: flex;
     max-height: 700px;
@@ -189,58 +188,130 @@ line-height: 30px;
     width: 50%;
 }
 .parent{
-    width: 50%;
-    height: 100%;
+    width: 100%;
     position: relative;
 }
 .img-1 img{
     width: 100%;
-    height: 50%;
-    position: relative;
-  border: 1px red solid;
 }
 
 .img-2 img{
     position: absolute;
-  top: 270px;
+  top: 350px;
   left: -70px;
-  border: 1px red solid;
 }
-.games-container{
-    border: 1px solid red;
-    height: 400px;
-    margin-top: 50px;
-}
-.single-games{
-    border: 1px solid green;
-    flex-basis: 50px;
-    display: flex;
-   gap: 20px;
-   align-items: center;
-   width: 100%;
+.game-related-container{
+    padding: 100px 55px;
+    margin-top: 120px;
+
 }
 
- .single-games img{
-    width: 60px;
-height: 60px;
-flex-shrink: 0;
-border-radius: 50px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
- }  
- 
- .single-games p{
+.gemes-related-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.gemes-related-parent li{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    gap: 10px;
+    /* transition: 0.5s; */
+    border-radius: 50px;
+    transition: 0.2s;
+    
+}
+.gemes-related-parent li >span{
     color: #0B0223;
-font-family: Work Sans;
-font-size: 20px;
-font-weight: 600;
- }
-.games{
-    width: 243px;
-height: 80px;
-flex-shrink: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.2s;
+}
+.gemes-related-parent li:hover{
+    background: #FFF;
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+    
+}
+
+.gemes-related-parent li:hover span{
+    color: #F948B2;
+}
+
+footer{
+    background-color: #0B0223;
+    padding: 100px 0px;
+    
+}
+
+
+footer .container{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+    text-align: center;
+}
+
+.footer-logo-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-logo-text img{
+    width: 70px;
+    height: 35px;
+}
+.footer-logo-text h3{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-menu ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin: 40px 0px;
+}
+.footer-menu ul li a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.footer-menu ul li a:hover{
+
+     color: rgba(255, 255, 255, 0.60);
+  
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.footer-icon svg{
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+}
+
+.footer-bottom-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-bottom-menu ul li a,.footer-bottom-copyright-text p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 500;
 }
