@@ -64,18 +64,19 @@ align-items: center;
     padding-top: 148px;
     padding-bottom: 148px;
     background-image: url(../images/Group\ 14.png);
+
 }
 
 .banner-text h1{
     color: #0B0223;
-text-align: center;
+align-items: center;
 font-family: Work Sans;
 font-size: 48px;
 font-weight: 600;
 text-transform: uppercase;
 }
 .banner-text h2{
-    text-align: center;
+    align-items: center;
     font-family: Work Sans;
     font-size: 95px;
     font-weight: 800;
@@ -131,7 +132,7 @@ text-transform: uppercase;
     margin-top: 50px;
 }
 .game-text{
-    text-align: center;
+   text-align: center;
     color: #0B0223;
 font-family: Work Sans;
 font-size: 48px;
@@ -194,6 +195,7 @@ line-height: 30px;
 }
 .img-1 img{
     width: 100%;
+   
 }
 
 .img-2 img{
